@@ -1,0 +1,155 @@
+                                                    TOPICS 
+
+    SET :-
+    Set is a container which contain uniques element in the. In set addition and deletion may be possible but modification is not possible    
+
+
+    MAPS :-
+    map is a way to store a key-value pair.   The keys are used to sort and identify the elements, while the values store the content associated with the keys. '
+    
+    Maps are the two type :-
+
+
+
+    1) Ordered Maps : They are in the sorted order . They are sorted because they are start with red black tree (these tree are self balancing trees ) . In Ordered maps all operation such as addition , deletion ets they all are down in a time complaxcity of O(logn). This order of logn complaxcity is due to the red black tree height (tree ki starting se le kar ke end tk pahuchne mein hme keval log n time lagega ). 
+
+
+
+    2) Unordered Maps : They are in the Unordered formate. In this we are using hashing . The time complaxcity of hashing is O(1) .   
+     syntex =  Unordered_map<data_type , data_type> map_name 
+                                           
+                                              kADANE'S Algorithum 
+    This Algorithum state that the if any negative number is present in an array then we do preffix sum . In any case the sum will negative then we take the sum is equal to tha 0 ; This Algorithum is usefull in finding greatest sum of an array 
+
+
+                                              Some Basic Concept 
+    * INT_MIN is the smallest integer means  smallest signed int
+    *INT_MAx is the largest integer signed and unsinged int 
+                     
+                      
+
+                                               Function 
+    1) array_name.size() :- It will give the lenth of an array 
+    2) max(n , m) :- this function is used for calculating the maximum value of m and n 
+    3) vector_begin():- This function is used for the finding first element of vector 
+    4) vector_end():- This function is used for the returning last element of the vector 
+    5) sort(starting_index , end_index) :- This function is used for the sort the array 
+
+
+                                             Note
+                                    
+    1) condition_statement1 ? condition_statement2 :- if first statement is false then the secound statement will execute in the programe 
+
+                                              STACK 
+    Stack is the linear container which contain the element . Stack work on the princple of LIFO (last in first out ). when the elements are more than the capacity of stack then there is condition called stack overflow . but in another hand if there no element in the stack then the condition is empty stack . we can perform many operations on stack such as insertion , deletion and search and many more . Their are two type of stack first one is dynamic and other one is stactic . 
+    syntex ;- stack<data_type> name ;
+
+    stactic :- constant stack is called static stack . In this we can not change the size of stack . It's size is constant through out the program . by using array this is called stactic stack .
+
+    dynamic:- variable sized stack is called dynamic stack . in this we can change the size of stack in between the program . using linked list method we can use dynamic stack .  
+      
+    There so many Function :
+    1) Pop()
+    2) Push()
+    3) Isempty()
+    4) Peek()
+    5) Isfull()
+    
+                           Working of Pop()
+
+    First of all we check the stack is empty or not . If top element is in the position of -1 then the stack will empty . 
+    Then this condition is called underflow stack . 
+    Otherwise we delete the top element and top will decrement by 1 and return the value at top-1 . 
+
+                          Working of Push()
+                        
+    First of all we check the top <= capacity-1 . If this condition is true then the stack is overflow . so we cant add the value in tha stack . This condition is called stack overflow 
+    Otherwise we give the top=top+1 and enter the value . .
+
+                          Working of top()
+                        
+    First of all we check the stack is empty . If the stack is empty(top==-1) then we cant return the top value .
+    Otherwise we return the value at the index of top 
+
+                         Working of Isempty()
+
+    First of we check the stack is overflow or not . if the top is at the valur of capacity -1 (top==capacity-1). 
+    then we simply return print stack is overflow . 
+    Otherwise we check the valur at the index==-1 . if this value is 0 then the stack is empty .
+
+                         Working of Isfull()
+                
+    If the  top == capacity -1 then the stack is full 
+    Otherwise it will return the stack is not full .
+
+
+    In C++, npos is a constant defined in the std::string class, and it represents a value that is returned when a string search operation (like find()) fails to find the substring or character.
+
+    Explanation:
+
+    1) When you use find() to look for a substring or character in a string, it returns the position (index) of the first occurrence of that substring/character.
+
+    2) If the character or substring is not found, find() returns string::npos, which is a large unsigned integer, typically representing the maximum possible value for size_t (often -1 in practice).
+
+    code snippet : - 
+    string str = "hello";
+    size_t pos = str.find('a'); // 'a' is not in "hello"
+
+    if (pos == string::npos) {
+        cout << "'a' not found in the string" << endl;
+    } else {
+        cout << "'a' found at position: " << pos << endl;
+    }
+
+    Since 'a' is not found in "hello", str.find('a') will return string::npos, and the output 
+
+    3) IF we concatinate a string with it self then the sub_str of all concatinate string is equal to the all rotations of the original string 
+    
+    code snippet : 
+    
+    str1 = abcde 
+    con = str1 + str1 = abcdeabcde 
+    possible rotation are :-
+
+    i) bcdea 
+    ii) cdeab 
+    iii) deabc 
+    
+    all the possible rotation are present in the sub string
+
+                        INBUILT STRING FUNCTIONS :-
+    
+    1) For converting int / float / double into the string 
+    --> to_string() 
+
+    2) For converting string back to int 
+    --> stoi()
+
+    3) For getting substring from one index to another index 
+    --> string_name.sub_str( starting index , till that index )
+
+    4) For convert lower case latter into uppercase 
+    --> toupper(character) ;
+
+    5)  For convert upper case latter into lower case 
+    --> tolower(character) ;
+
+    6)  For checking lower case latter 
+    --> islower(character) ;
+
+    7) For checking  uppercase letter 
+    --> isupper(character) ;
+    
+    8) For checking this is alphabate or not 
+    --> isalph(character);
+    
+    9) For rotating the string or int 
+    --> rotate(start , number of rotation , end) ;
+   
+
+
+
+
+                             Binary Search On A Answer Approach 
+    --> If a statement having such statements " minimize the maximum " or "maximize the minimum"  then the problem is of BSA 
+    
