@@ -1,0 +1,76 @@
+   
+                                          n-Arry Tree 
+
+            A tree has atmost n degree node (0 ,1,2,3,4....n). That tree is know as n - arry tree . 
+
+
+                                         Strict n-arry tree 
+
+            A tree has 0 child or n child . this tree is called strict n-arry tree 
+
+
+# Analysis of n-arry tree 
+
+
+=> Suppose if have given Height of tree h . then we have to find the min number of node or max number of node 
+
+
+                Formula for find min number of node :-
+                                          
+                            Node = nh+1 
+                        where :- 
+                              Node = min number of node 
+                              n = type of tree ( 1 , 2 ,3 ....n)
+                              h = Height  (given)   
+                
+                Formula for find max number of node :- 
+
+                        let Height of tree is h and start traversing the tree level by level 
+                    
+                         level = 0 ,1 ,2,3,4,5.......h 
+
+                        * it is a n-arry tree then we have max child is n in the each parent so we take this :- 
+
+                        ==> Level wise node 
+                            > level 0 = 1 (root node)
+                            > level 1 = n 
+                            > level 2 = n^(2) 
+                            > level 3 = n^(3)
+                                .
+                                .
+                                .
+                                .
+                                .
+                            > level h = n^(h)
+                        This seems like a gp so we use gp formula and our max node in n-arry tree is :- n^(h+1) - 1 / n - 1 
+
+=> Suppose if we have given node of tree Node . then we have to find the min height of tree or max height of tree 
+
+
+                Formula for find min height of tree :-
+                                          
+                            height = (Node - 1) / n
+                        where :- 
+                              Node = number of node in tree (given )
+                              n = type of tree ( 1 , 2 ,3 ....n)
+                              h = minimum height of tree     
+                
+                Formula for find max height of tree :-
+                                          
+                             height = logn(Node(m-1) + 1) - 1 
+                        where :- 
+                              Node = number of node in tree (given )
+                              n = type of tree ( 1 , 2 ,3 ....n)
+                              h = maximum height of tree     
+                
+==> Relation between internal node and External node 
+
+                          e = ni + 1
+                            or 
+                          deg(0) = ndeg(n) + 1  
+                        where:- 
+                           e = External node 
+                           i = internal node 
+                           n = n-arry tree 
+
+    

@@ -1,0 +1,10 @@
+Here some basic command related to nano 
+
+1) open file in nano 
+--> nano <file.extension> 
+
+2) Save file in nano 
+--> ctl + O then press enter 
+
+3) Exit from nanp 
+--> ctl + X 

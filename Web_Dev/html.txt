@@ -1,0 +1,47 @@
+Date :- 13/09/2024
+<b> 
+it is used to make a text bold 
+
+<base> 
+this tag is defines the base URL for all relative UPLs with in the document 
+
+<basefont> 
+this tag is used to set the defult font , size , and color for all element of the document 
+
+<bdi> 
+this tag is used to provide isolation for that part of text which may be formatted in diffrent direction from its surrounding text 
+
+<bdo>
+it is used to override the current text direction 
+
+<big> 
+
+
+                                List 
+
+Html list are used to specify list of information. All list may contain one or more list element their are three diffrent type of html list .
+
+1) Ordered List : It define a list of item in which the order of the items are matters . An ordered list is called a number list . 
+                Diffrent way to number the ordered list . Using the type attriput . 
+
+                1)type="1" :- The list items will be numbered with numbers (defult)
+                2)type="A" :- The list item will numbered with upper case letters .
+                3)type="a" :- The list item will numbered with lower case letters . 
+                4) type="i" :- The list item will numbered with roman number . 
+
+
+
+2) Unordered List : It defines a list of items in which the order of the item does not matters or in other words it is used       to contains the Unordered list . Their are four type of style in Unordered list .
+                
+                1) type="disk" 
+                2) type="circle"
+                3) type="none"
+                4) type="square"
+
+
+
+
+
+3) Discription list : description list is the list in which each term contain its description this tags contain DT tage and DD tags  
+
+Q1) Write down the html program in which ordered list , Unordered list and description list is used . 

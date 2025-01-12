@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(contact_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact {
+    min-height: 100vh;
+    padding: 50px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.container h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: azure;
+    text-transform: capitalize;
+}
+
+.container h2:after {
+    content: "";
+    height: 4px;
+    width: 220px;
+    background-color: azure;
+    display: block;
+    margin: auto;
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+.contact-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(238, 246, 236);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(200, 208, 206);
+}
+
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4caf50;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #77ee16;
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(238, 246, 236);
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.contact-info i {
+    margin-right: 5px;
+    margin-bottom: 10px;
+    color: rgb(229, 235, 221);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-wrapper {
+        grid-template-columns: 1fr; /* Stacks items on top of each other on smaller screens */
+    }
+
+    .container h2 {
+        font-size: 28px;
+    }
+
+    .contact-form h3, .contact-info h3 {
+        font-size: 22px;
+    }
+
+    input, textarea {
+        padding: 10px; /* Slightly smaller padding for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .container h2 {
+        font-size: 24px;
+    }
+
+    .contact-form h3, .contact-info h3 {
+        font-size: 20px;
+    }
+
+    input, textarea {
+        padding: 8px; /* More compact padding for very small screens */
+    }
+
+    button {
+        padding: 10px 20px;
+    }
+}

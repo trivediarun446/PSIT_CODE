@@ -1,0 +1,13 @@
+History :-
+
+==> Developer of kali linux created a replacement of backtrack 
+distribution 
+
+==> Backtrack distribution is power full linux disturibution 
+based on KNOPPIX linux that provide powerfull penetration
+testing tools for successful penetration . 
+
+==> KNOPPIX is a opereating system based on debian to run 
+directly from CD/DVD and usb . 
+
+==> Debian is an opereating system use linux kernal

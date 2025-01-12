@@ -1,0 +1,45 @@
+MOST BASIC OR REGULAR USE COMMAND IN LINUX 
+
+1) For listing the files in a folder 
+--> ls 
+
+2) For switching one folder to another folder 
+--> cd <folder_name>   full-form "change directory" 
+
+3) For comming back to the previous directory 
+--> cd .. 
+
+4) For making a new folder 
+--> mkdir <folder_name>  full-form "make directory"
+
+5) For opening files into the vs code 
+--> code <folder_name> 
+
+6) For update the linux repository 
+--> sudo update 
+
+7) For deleting files 
+--> rm <file_name> 
+
+8) For opening chrome using terminal 
+--> google-chrome
+
+9) For opening firefox using terminal 
+--> firefox
+
+10) For creating a file 
+--> touch <filename.extension>
+
+11) For deleting a directory
+--> rmdir <dir_name>
+
+
+==> Some Points to remember 
+
+1) systemctl :- This is a cmd line tool which is used for interect with systemd . By the help of this cmd line we can start , stop , restart , enable , disable and status check of the system 
+
+2) systemd :- This is a sevice manager which help linux in booting and also provide diffrent services like start  , stop status etc . 
+
+3) --purge :- It is a option which is used with apt or apt-get . This option help us to remove the configuration and data of the software . If you use only remove then it will uninstall the package not its config files and data 
+
+4) APT :- APT stand for adavance package tool . It is the collection software packages . It work like a play store in androids 

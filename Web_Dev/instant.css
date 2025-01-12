@@ -1,0 +1,129 @@
+/* 1 em stand for the size of photo , fonts ets is depends upon the parent tag  */
+:root 
+{
+    --green: green ; 
+    --black: black ;
+    --light-color: #666 ;
+    --box-shadow: 0 .1rem 1rem rgb(160, 156, 156);
+    --border:2rem solid rgba(0,0,0.1);
+    --outline: .1rem solid rgba(0,0,0.1);
+}
+*
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: black;
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0 ;
+    outline: none ;
+    border: none ;
+    text-decoration: none; /* this is used for removing underline  */
+    text-transform: capitalize;
+}
+html
+{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+.body 
+{
+ background: #eee;
+}
+.header
+{
+    border: 0px solid ;
+    position: fixed;
+    top : 0;
+    left:0 ;
+    right :0 ;
+    display: flex; /*display flex is used for display the web in every screen */
+    align-items: 2rem 9%;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background: white;
+    box-shadow: var(--box-shadow);
+}
+.header .logo 
+{
+    font-size: 2.3rem;
+    font-weight: bolder;
+    
+}
+.header .logo i
+{
+    color: var(--green);
+    padding: 5 1rem;
+}
+.header .navbar a
+{
+    
+    font-size: 2.3rem;
+    padding: 2.5rem;
+    
+}
+.header .navbar a:hover
+{
+    cursor: pointer;
+    color: var(--green);
+    text-decoration: underline;
+}
+.header .icons div
+{
+    border: 0px solid ;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: 0.5rem;
+    background: #eee;
+    color: var(--black);
+    font-size: 2rem;
+    margin-right: .3rem;
+    text-align: center;
+}
+.header .icons div:hover
+{
+    cursor: pointer;
+    background: var(--green);
+    color: white;
+}
+/* CSS for the search bar  */
+.header .search-form 
+{
+    border: 0px solid ;
+    position: absolute;
+    top: 110%;
+    right: -110%;
+    width: 50rem;
+    height: 4.5rem;
+    background: white;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-shadow: rgb(114, 112, 112);
+}
+.header .search-form input
+{
+    height: 100%;
+    width: 100%;
+    background: none;
+    text-transform: none;
+    font-size: 1.6rem;
+    padding: 0 1.5rem;
+    color: var(--black);
+
+}
+.header .search-form label 
+{
+    font-size: 2.2rem;
+    padding-right: 1.5rem;
+    color: var(--black);
+}
+.header .search-form.active 
+{
+    right: 2rem;
+    transition: .1s linear;
+}

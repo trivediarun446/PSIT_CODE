@@ -1,0 +1,49 @@
+*
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    /* color: black; */
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0 ;
+    outline: none ;
+    border: none ;
+    text-decoration: none; /* this is used for removing underline  */
+    text-transform: capitalize;
+}
+
+.body{
+    /* background-color: black; */
+}
+.navigation{
+    display: flex;
+    border: 0px solid ;
+    position: fixed;
+    top : 0;
+    left:0 ;
+    right :0 ;
+    align-items: 2rem 9%;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    color: aliceblue;
+    background: rgb(23, 5, 84);
+}
+
+.navigation .logo{
+   padding-left: 2rem;
+   padding-top: 2rem; 
+   padding-bottom: 3rem;
+   font-size: 2rem;
+}
+.navigation .navcontent .navi{
+    /* display: block; */
+   padding-top: 2rem;
+   padding-right: 2rem;
+   color: white;
+   text-decoration: none;
+}
+.navi a{
+    color: aliceblue;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+}

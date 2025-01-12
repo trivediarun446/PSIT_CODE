@@ -1,0 +1,13 @@
+Basic commands to install python in linux 
+
+1) For update the repo 
+--> sudo apt update 
+
+2) For install the latest version of python 
+--> sudo apt install python3 
+
+3) For checking python3 version
+--> python3 --version 
+
+4) For run programe in terminal 
+--> python3 <filename.py> 

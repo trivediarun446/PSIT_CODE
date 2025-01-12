@@ -1,0 +1,25 @@
+Date : 
+
+data is of two type 
+1) Operational Data
+2) Legacy data (old data ):- This Data is stored in a array of disk . The large size data kept in that place called data warehouse . The algorithum written for analysing the data is called Data mining algorithum . 
+What is data structure : - 
+
+When a programe is dealing with the data . then how it will organised the data in main memory is called data structure .
+Arrangement of data in main memory is called data structure .
+
+List of Data : 
+
+1) Physical Data structure :- This define that how the data arrange in the main memory 
+    i) Array 
+    ii) Matrix 
+    iii) Linked List 
+2) Logical Data structure :- This define that how the data is utlised 
+    i) stack 
+    ii) Queues
+    iii) trees 
+    vi) hashing
+    v) graph 
+
+Data Base :- Arrangement of Data is storded in extermal memory is called data base 
+

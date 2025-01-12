@@ -1,0 +1,70 @@
+BASIC COMMAND FOR GITHUB USING TERMINAL 
+
+
+
+==>                  Fundamental Cmd 
+
+
+1) Global configuration user name 
+--> git config --global user.name "arun" 
+
+2) Global configuration user gmail 
+--> git config --global user.email "aruntrivedi446@gmail.com" 
+
+3) For checking Global user name 
+--> git global user.name  
+
+4) For checking Global  user gmail 
+--> git global user.email 
+
+5) For cloning the repository 
+--> git clone <url of repo> 
+
+6) For adding all files 
+--> git add .
+
+7) For adding particular file 
+--> git add <file_name> 
+
+8) For git commit 
+-->git commit -m " type massage here " 
+
+9) For pushing the changes into repository 
+--> git push <file_name> 
+
+10) For checking the global setting list 
+--> git global --list or git config --list 
+
+11) 
+
+9) For changing the url of git repo ( HTTPS -> SSH || SSH -> HTTPS )
+--> git remote set-url origin " here type the url " 
+
+
+==>               Creating SSH key 
+
+1) for greating ssh key in local system 
+--> ssh-keygen 
+
+2) for display and copy the ssh-key 
+--> cat <loaction where the ssh key is store>
+
+3) Open the github , go to setting and open the ssh-key open 
+--> Paste the ssh key into the server 
+
+4) for cloning the repository using ssh 
+--> git clone <ssh-link >
+
+
+
+
+==>               Branch Related COMMAND 
+
+
+1) For checking the Branch in system 
+--> git branch
+
+2) For create a new branch in git 
+--> git branch <name> 
+
+3)  

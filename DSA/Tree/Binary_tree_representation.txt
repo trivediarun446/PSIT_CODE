@@ -1,0 +1,68 @@
+
+
+                        Array Representation of Binary Tree 
+
+See how the binary tree is made :- 
+
+===>>       (" Visit a image binary_tree.jpg " )
+
+For Representation of binary tree in the Array we have to traverse the tree level by level . If we traverse the tree level by level
+and save the data of tree into the array it seems like this 
+
+    data :-         A   B   C   D   E   F   G 
+    Index:-         0   1   2   3   4   5   6 
+
+
+
+=> Now create a table to understand the Relation :- 
+   
+    Element           Index           Left-child         Right-child
+
+      A                 0                 1                   2
+      B                 1                 3                   4
+      C                 2                 5                   7 
+
+===> Observation from the table :- 
+                                We any Element is stored at Index i then the left and right child of that Element is stored at Index
+                                2*i + 1 and 2*i+2 respectively 
+                    
+                
+            Formula :- 
+                    Element : i 
+                    Left-child: 2*i+1 
+                    Right-child: 2*i+2
+                    parent:- i+1/2
+
+
+
+
+
+                            Representation of Tree in Linked List 
+            
+===>> Refere to image linked_list Representation of bt 
+
+     
+
+
+
+
+
+#                   Full Binary Tree :- 
+
+Agar binary tree ki height ke according us tree mein maximum number of nodes hoge to vo full binary tree kahalata hai 
+
+ if(number of nodes == 2^(h+1)-1){ cout<<"It is a full binary treee"<< endl}
+
+
+
+#                   Complete Binary Tree :- 
+
+Agar hm kisi binary tree ko level wise traverse kar ke array mein store karege 0
+
+
+
+                    
+
+
+
+

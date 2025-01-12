@@ -1,0 +1,224 @@
+History of python :
+Python was developed by Guido Van Rossum in 1991 on 20th feb while working on national research at netherland in 1989
+
+it was designed with help of C language and abc
+
+platform independent
+easy
+portable
+
+Introduction to python
+
+python is a general purpose high level programming language.
+Python was developyed by Guido Van Rossam in 1989 while working at Nation Research Insititute at Netherlands.
+But officially Python was made available to public in 1991. The official Date of Birth for Python is : Feb 20th 1991
+Python is recommended as first programming language for beginners.
+The name Python was selected from the TV Show "The complete Monty Python's Circus", which was broadcasted in BBC from 1969 to 1974.
+Guido developed Python language by taking almost all programming features from different languages:
+1.) Functional Programming features from C 
+2.) Object Oriented Programming Features from C++
+3.) Scripting Language features from Perl and Shell Script
+4.) 4. Modular Programming features from Modula-3
+
+Most of syntax in Python Derived from C and ABC languages 
+
+Where we can use Python
+
+1.) For developing Desktop Applications
+2.) For developing web Applications
+3.) For developing database Applications
+4.) For Network Programming
+5.) For developing games
+6.) For Data Analysis Applications
+7.) For Machine learning
+8.) For developing artificial Intelligence Applications
+9.) For IOT 
+
+Features of Python
+1.) Simple and easy to learn
+2.) Freeware and Open Source 
+3.) High Level Programming language
+4.) Platform Independent 
+5.) Portability 
+6.) Dynamically Typed
+7.) Both Procedure Oriented and Object Oriented 
+8.) Interpreted
+9.) Extensive Library
+
+Limitations of Python:
+1.) It is not used for mobile Applications
+2.) It is interpreted, so it is not as performant as C or C++ or any compiled language 
+
+Reserve words
+In Python some words are reserved to represent some meaning or functionality
+Such type of words are called Reserved words.
+There are 33 reserved words available in Python
+
+True,False,None
+
+and, or, not, is
+if,elif,else
+while, for, break, continue, return, in, yield
+try,except, finally,raise,assert
+import,from,as,class,def,pass,global,nonlocal,lambda,del,with
+
+Note: 1.All Reserved words in Python contain only alphabet symbols.
+2. Except the following 3 reserved words, all contain only lower case alphabet symbols
+True
+
+
+
+
+List , Tuple , set , dictionry 
+
+four built in data structures in python 
+list Tuple set dictionry 
+each having qualities  and usage diffrent from the three
+
+
+LIST is a collection of items that is written with square brackets . It is mutable . ordered and allowed duplicates members 
+
+Tuple : - It  is a collection of objects that is written with first brackets . It is immutable 
+
+Set :- It is the collection of elements that is written with curly brackets . It is unindexed and unordered 
+
+lecture 3 : 10 september 2024 
+
+
+Operators 
+Additions 
+multiplication 
+division 
+Remainder 
+Binaray left shift 
+and 
+less than 
+less than or equal to 
+check equality 
+substraction 
+exponentiation 
+integer division 
+Binaray right shift 
+or 
+greater than '
+greater equal to 
+
+
+                     PRECEDENCE OF Operators 
+Parenthesized expressiom 
+exponentiation
+positive , negative , bitwise not 
+multiplication , , float , division , int division , Remainder
+Additions , substraction
+bitwise left , right shift 
+bitwise and 
+bitwise or 
+membership and equality test 
+not , < , <= ,> ,>= , != , == 
+boolean (logical) not 
+boolean and 
+boolean or 
+conditional expressiom          
+
+                      Comments 
+Single line comments begins with a hash(#) symbol and is useful in mentaining that the whole line should be consider asa a comment until the end of the line 
+
+A multi line comment is useful when we need to comment on many lines . In python triple and double qoutes are used in multi lining comment 
+
+
+
+
+
+
+
+
+Lecture 4 : 11th september 2024 
+
+
+
+
+
+
+
+TYPE CASTING 
+
+We can convert one type value to the another type value .This conversion is called Typecasting or type conversion 
+The following are the various in built fuctions for type casting 
+
+1) int()
+2) float()
+3) complex()
+4) bool()
+5) str()
+
+
+
+1) Int() :- int fuctions is used to convert the any data type to int data type 
+
+example : - 
+>>> int(1234)
+1234
+>>> int(10+4)
+typeerror:can't convert complex to int 
+>>> int("10.5")
+invalid literal for int() with base 10 : 
+
+note : we can not convert any type value to float type except complex type . 
+
+2) complex(): 
+we can use complex() function to convert other types to complex 
+
+Form-1 :- complex(x)
+we can use this function to convert x into complex number with real part x and imaginary part 0 
+
+example : complex(10)==>10+0j
+complex(10.5)==> 10.5+0j 
+complex("ten")===> this give the valurError     beacuse we the string argo in the complex function 
+
+
+Form-2 :- complex(x,y)
+we can use this method to convert x and y into the complex number here x is the real part and y is the imaginary part 
+example:- 
+complex(14,6)===> 14+6j
+
+
+3) bool():
+we can use this function to convert other type value to bool type 
+
+
+if the int or float type is in the range of 0 then it will return the value false and the number come in the range of 1 then the ans is true 
+
+example: 
+bool(0)==> false 
+bool(1)==>true 
+
+4) str():
+  we can use this method to convert other type value to str type 
+ex :- 
+    >>>str(10)
+    '10' 
+    >>>str(10.5)
+    '10.5'
+
+
+Fundamental data type v/s immutability: 
+
+All the data type are immutable that is one  we create an object , we cannot perform any changes in that object . If we are trying to change then with those changes a new object will be created . This non changeable behaviour is caled immutability 
+
+
+17 sept 2024 
+
+
+bytes data type represence a group of bytes numbers just like an array 
+
+eg 
+x={10 , 20,30 ,40}
+b = bytes(x)
+type(b)==> bytes 
+print(b[0])==>10 
+print(b[-1])==>40 
+>>>for i in b : print(i)
+
+conclusion 1: 
+
+THe 4

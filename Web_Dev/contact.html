@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <section class="contact">
+        <div class="container">
+            <h2>contact me</h2>
+            <div class="contact-wrapper">
+
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-phone"></i>+91 8542086378</p>
+                    <p><i class="fa fa-envelope"></i>trivediarun446@gmail.com</p>
+                    <p> <i class="fas fa-map-marker-alt"></i>B-1418 MIG ,Kanpur , India </p>
+                    <p><i class="fa fa-github"></i>github.com/trivediarun446</p>
+                    <p><i class="fa fa-linkedin-square"></i>Arun Trivedi</p>
+                </div>
+                <div class="contact-form">
+                    <h3> Send us a message </h3>
+                    <form onsubmit="sendEmail() ; reset() ;return false ;">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="type here .."></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "arunakshi446@gmail.com",
+                Password: "password",
+                To: 'trivediarun446@gmail.com',
+                From: document.getElementById("email").value,
+                Subject: "For inquery",
+                Body: "Name : " +document.getElementById("Name").value + "br> Email : "+ document.getElementById("email").value +  "<br> Message : " +document.getElementById("message").value 
+            }).then(
+                message => alert("Message Send succesfully")
+            );
+
+        }
+    </script>
+</body>
+
+</html>
