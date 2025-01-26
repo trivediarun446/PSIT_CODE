@@ -1,0 +1,33 @@
+==>        Some Important Terminolgy 
+
+=> Address Register :- 
+
+
+=> Programe Counter :- 
+
+
+=> Data Register :- 
+
+
+=> Accumataltor :- 
+
+
+=> Arthmatic Logical Unit :- 
+
+
+=> Instruction Register :- 
+
+
+=> Temporary Register :- 
+
+
+=> Load Pin :- 
+
+
+=> Memory :- 
+
+
+=> Multiplexer :- 
+
+
+=> Decoder :- 
