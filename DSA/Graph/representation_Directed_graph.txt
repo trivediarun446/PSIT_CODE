@@ -1,0 +1,24 @@
+Representation of Directed Graph :
+
+
+1. Adjacency Matrix (2D Array Representation)
+2. Adjacency List (Using Vectors/List)
+
+
+1. Adjacency Matrix (2D Array Representation)
+
+    * IF there are n nodes in a graph then the matrix is nXn . 
+
+    * Uses a 2D matrix where matrix[i][j] = 1 if there is an edge between vertex i and vertex j, otherwise 0.
+
+    * Since the graph is undirected, the matrix is symmetric, meaning if matrix[i][j] = 1, then matrix[j][i] = 1.
+
+    * If the graph is weighted, matrix[i][j] stores the weight instead of 1.
+
+2. Adjacency List Representation (Using Vectors)
+
+    * Uses an array of lists (or vector of vectors) where adj[i] stores the list of all adjacent vertices to vertex i.
+
+    * Since the graph is undirected, for every edge (u, v), we store both adj[u].push_back(v) and adj[v].push_back(u).
+
+    * More memory-efficient for sparse graphs.

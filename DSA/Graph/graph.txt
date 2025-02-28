@@ -1,0 +1,37 @@
+=> Graph (G): A collection of vertices (nodes) and edges (connections). Represented as G=(V,E)
+where:
+
+    V is the set of vertices.
+    E is the set of edges.
+
+Vertex (Node): A fundamental unit of a graph, represented as a dot or a circle.
+
+Edge: A connection between two vertices. It can be directed or undirected.
+
+Degree of a Vertex: The number of edges connected to a vertex.
+
+    In-degree: Number of incoming edges (only for directed graphs).
+    Out-degree: Number of outgoing edges (only for directed graphs).
+
+Self Loop : A edge of a particular vertex pointing it self that is called self loop 
+
+
+2. Types of Graphs
+
+    Directed Graph (Digraph): A graph where edges have a direction (→).
+
+    Undirected Graph: A graph where edges have no direct
+
+    Simple Digraph : A graph has not parallel edges , indegree and outdegree . 
+
+    Strongly connected Graph : From any node of graph we reach every node of graph then 
+    the graph is Strongly connected graph .
+
+    Cyclic Graph: A graph that contains at least one cycle.
+
+    Acyclic Graph: A graph without any cycles.
+
+    Tree: A connected acyclic graph.
+
+
+    
