@@ -1,0 +1,36 @@
+In Python file handling provide different methods to read , write and manuplate the data 
+store in the file in a very efficient manner . In Python Provide many inbuilt function to to do these operation efficiently 
+
+
+
+1) Opening of File 
+
+
+   Using open() function we open the file 
+
+   syntex : 
+            file = open("filename" , "mode") 
+
+    
+    Mode :- Python provide different modes to open a file 
+            some modes are written below 
+
+        i) r = read mode we open the file into the reat mode 
+
+        ii) w = write mode we open the file into the write mode 
+
+        iii) a = append mode we open the file into the append mode in this mode we add text in the last line of the file 
+
+        iv) r+ = This is read + write mode 
+
+        v) w+ = this is write + read mode 
+
+        vi) a+ = this is read + append mode 
+
+        vii) rb = this mode is for binary file . using this mode we open the binary file into read mode 
+
+        viii) wb = this mode is also for binary file . using this mode we open the binary file into the write mode 
+
+
+
+

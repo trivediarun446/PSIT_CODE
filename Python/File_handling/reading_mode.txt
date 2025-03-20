@@ -1,0 +1,47 @@
+
+1) Read Mode :- In file handling we read any file using read() function . 
+python provide more read function for reading a file 
+
+List of read function :- 
+
+i) .read() 
+ii) .readline() 
+iii) .readlines() 
+
+
+
+==>    .read() :- This function is used for read a entire file
+
+       example :- 
+         
+          file = open( "sample.txt" ,'r') 
+
+          content = file.read() 
+          print(content) 
+          file.close() 
+
+
+==> .readline() :- This function read a file in line by line manner 
+
+
+       example:- 
+         
+           file = open( "sample.txt" , 'r')
+
+           for line in files:
+                print(line.strip()) 
+            file.close() 
+
+
+==>  .readlines() :- This function is read all lines in a list 
+
+         example:
+
+          file = open("sample.txt", 'r')
+          line = file.readlines() 
+
+          print(line) 
+          file.close() 
+
+
+           
